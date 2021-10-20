@@ -45,6 +45,9 @@
         return;
     }
     
+    // IF MORE STATS FUNCTIONS ARE TO BE INTRODUCED, PERFORM OPERATION IN A DIFFERENT SPACE
+    // INSTEAD OF FILLING THIS VIEW CONTROLLER.
+    
     NSDictionary<NSString*, NSNumber*> *productStats = [self.products valueForKey:self.selectedProductLabel.text];
     
     if (productStats == NULL) {
