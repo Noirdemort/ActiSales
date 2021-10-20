@@ -14,6 +14,8 @@
 		5C0591A9271EE23300C19229 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C0591A8271EE23300C19229 /* Assets.xcassets */; };
 		5C0591AC271EE23300C19229 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C0591AA271EE23300C19229 /* LaunchScreen.storyboard */; };
 		5C0591AF271EE23300C19229 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C0591AE271EE23300C19229 /* main.m */; };
+		5C0591B7271EF7B400C19229 /* Product.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C0591B6271EF7B400C19229 /* Product.m */; };
+		5C0591B9271EF7E600C19229 /* input_ios.json in Resources */ = {isa = PBXBuildFile; fileRef = 5C0591B8271EF7E600C19229 /* input_ios.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +31,9 @@
 		5C0591AB271EE23300C19229 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5C0591AD271EE23300C19229 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5C0591AE271EE23300C19229 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5C0591B5271EF7B400C19229 /* Product.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Product.h; sourceTree = "<group>"; };
+		5C0591B6271EF7B400C19229 /* Product.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Product.m; sourceTree = "<group>"; };
+		5C0591B8271EF7E600C19229 /* input_ios.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = input_ios.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,12 +66,15 @@
 		5C05919B271EE23300C19229 /* ActiSales */ = {
 			isa = PBXGroup;
 			children = (
+				5C0591B8271EF7E600C19229 /* input_ios.json */,
 				5C05919C271EE23300C19229 /* AppDelegate.h */,
 				5C05919D271EE23300C19229 /* AppDelegate.m */,
 				5C05919F271EE23300C19229 /* SceneDelegate.h */,
 				5C0591A0271EE23300C19229 /* SceneDelegate.m */,
 				5C0591A2271EE23300C19229 /* ViewController.h */,
 				5C0591A3271EE23300C19229 /* ViewController.m */,
+				5C0591B5271EF7B400C19229 /* Product.h */,
+				5C0591B6271EF7B400C19229 /* Product.m */,
 				5C0591A5271EE23300C19229 /* Main.storyboard */,
 				5C0591A8271EE23300C19229 /* Assets.xcassets */,
 				5C0591AA271EE23300C19229 /* LaunchScreen.storyboard */,
@@ -133,6 +141,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5C0591B9271EF7E600C19229 /* input_ios.json in Resources */,
 				5C0591AC271EE23300C19229 /* LaunchScreen.storyboard in Resources */,
 				5C0591A9271EE23300C19229 /* Assets.xcassets in Resources */,
 				5C0591A7271EE23300C19229 /* Main.storyboard in Resources */,
@@ -146,6 +155,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5C0591B7271EF7B400C19229 /* Product.m in Sources */,
 				5C0591A4271EE23300C19229 /* ViewController.m in Sources */,
 				5C05919E271EE23300C19229 /* AppDelegate.m in Sources */,
 				5C0591AF271EE23300C19229 /* main.m in Sources */,
